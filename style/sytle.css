@@ -1,6 +1,4 @@
 header{
-    & img{
-        padding: 112px;
-        margin: 0;
-    }
+    background-color: red;
+    color: white;
 }
