@@ -1,6 +1,6 @@
-body{
-    & header{
-        background-color: red;
-        border-image: 450px;
+header{
+    & img{
+        padding: 112px;
+        margin: 0;
     }
 }
