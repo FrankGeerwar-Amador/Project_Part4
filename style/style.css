@@ -16,6 +16,11 @@ header{
         color: rgb(255, 255, 255)
     }
 }
+main{
+    & ul{
+        list-style-type: none;
+    }
+}
 footer{
     background-color: rgb(209, 136, 18);
     & p{
