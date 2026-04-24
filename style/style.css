@@ -24,6 +24,11 @@ main{
         margin: 0;
     }
 }
+nav{
+    & ul{
+        text-align: center;
+    }
+}
 footer{
     background-color: rgb(209, 136, 18);
     & p{
