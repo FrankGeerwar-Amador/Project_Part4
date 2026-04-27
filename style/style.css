@@ -37,7 +37,7 @@ footer{
 }
 .flip-card {
   width: 280px;
-  height: 210px;
+  height: 190px;
   perspective: 1000px;
 }
 
