@@ -84,5 +84,12 @@ footer{
 }
 
 .title{
-    padding: 2px 16px;
+    width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  border-top: 2px solid rgba(255,255,255,0.6);
+  background: rgba(0,0,0,0.2);
+  & h4{
+    margin: 0;
+  }
 }
