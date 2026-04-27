@@ -26,10 +26,12 @@ main{
     }
 }
 section{
+    width: 75%;
     padding-left: .5em;
     border-bottom: #800000;
 }
 aside{
+    width: 25%;
     padding-right: .5em;
 }
 nav{
