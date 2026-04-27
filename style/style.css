@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-header img{
-    size-adjust: 600px;
-    text-align: left;
-}
 header{
     line-height: 1.2;
     text-align: center;
@@ -22,6 +18,10 @@ header{
 }
 
 main{
+    margin:auto;
+    border: 4px double red;
+    border-radius: 10px;
+    padding: 1em;
     & h2{
         text-align: center;
     }
