@@ -91,7 +91,7 @@ footer{
     background: rgba(0, 0, 0, 0.7); /* dark bar */
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
     & h4{
         margin: 0;
         font-size: 16px;
