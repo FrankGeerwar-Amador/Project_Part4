@@ -72,10 +72,6 @@ footer{
   flex-direction: column;
   overflow: hidden;
   border-radius: 10px;
-  & img{
-    object-fit: cover;
-    flex: 1;
-  }
 }
 
 .flip-card-back {
