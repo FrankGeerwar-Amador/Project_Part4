@@ -19,7 +19,7 @@ header{
 
 main{
     display: flex;
-	flex-direction: column-reverse;
+	flex-direction: row;
 	padding: 0 1em 1em;
     & h2{
         text-align: center;
@@ -28,7 +28,7 @@ main{
 section{
     width: 75%;
     padding-left: .5em;
-    border-bottom: #800000;
+    border-bottom: 2px solid #800000;
 }
 aside{
     width: 25%;
