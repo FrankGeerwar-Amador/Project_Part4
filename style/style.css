@@ -68,6 +68,7 @@ footer{
 .flip-card-front {
   background: #00e1ff;
   color: white;
+  justify-content: center;
 }
 
 .flip-card-back {
