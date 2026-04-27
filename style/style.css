@@ -68,11 +68,6 @@ footer{
 .flip-card-front {
   background: #00e1ff;
   color: white;
-  display: flex;
-  flex-direction: column;    
-  justify-content: space-between; 
-  align-items: center;
-  padding: 10px;
 }
 
 .flip-card-back {
@@ -86,4 +81,8 @@ footer{
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.title{
+    padding: 2px 16px;
 }
