@@ -75,3 +75,10 @@ footer{
   color: white;
   transform: rotateY(180deg);
 }
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
