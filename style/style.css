@@ -18,9 +18,19 @@ header{
 }
 
 main{
+    display: flex;
+	flex-direction: column-reverse;
+	padding: 0 1em 1em;
     & h2{
         text-align: center;
     }
+}
+section{
+    padding-left: .5em;
+    border-bottom: #800000;
+}
+aside{
+    padding-right: .5em;
 }
 nav{
     & ul{
@@ -101,12 +111,4 @@ footer{
     border-top: 2px solid red;
 	border-bottom: 2px solid red;
 	padding: .5em 0 1em;
-}
-
-section{
-    padding-left: .5em;
-    border-bottom: #800000;
-}
-aside{
-    padding-right: .5em;
 }
