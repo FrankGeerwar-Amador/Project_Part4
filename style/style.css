@@ -32,6 +32,7 @@ section{
 }
 aside{
     width: 25%;
+    border-right: #ff0000;
 }
 nav{
     & ul{
