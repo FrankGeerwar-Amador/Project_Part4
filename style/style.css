@@ -106,26 +106,6 @@ footer{
 	border-bottom: 2px solid red;
 	padding: .5em 0 1em;
 }
-.submenu{
-    position: relative;
-    & small{
-        margin-left: .25em;
-    }
-    & li a{
-        margin: 2px;
-    }
-}
-.dropdown {
-	position: absolute;
-	top: 0;
-	left: 100%;
-	width: 100%;
-	background-color: var(--accent-color);
-	color: var(--light_menu);
-	display: none;
-	flex-direction: column;
-	& > li a { margin: 0 2px 2px; }
-}
-.submenu:hover > .dropdown{
-    display: block;
+.navbar-nav .dropdonw-menu{
+    margin-top: 0.5rem;
 }
