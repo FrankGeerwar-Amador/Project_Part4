@@ -118,3 +118,17 @@ footer{
         margin: 2px;
     }
 }
+.dropdown {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	background-color: var(--accent-color);
+	color: var(--light_menu);
+	display: none;
+	flex-direction: column;
+	& > li a { margin: 0 2px 2px; }
+}
+.submenu:hover > .dropdown{
+    display: block;
+}
