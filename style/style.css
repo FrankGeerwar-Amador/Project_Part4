@@ -23,7 +23,7 @@ body {
 
 main{
     display: flex;
-	flex-direction:column;
+	flex-direction:row;
 	padding: 0 1em 1em;
 }
 section{
