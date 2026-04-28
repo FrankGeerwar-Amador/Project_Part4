@@ -28,7 +28,7 @@ main{
 section{
     width: 75%;
     padding-left: .5em;
-    border-bottom: 2px solid #800000;
+    border-bottom: 2px solid red;
 }
 aside{
     width: 25%;
