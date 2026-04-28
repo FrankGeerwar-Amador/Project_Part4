@@ -114,4 +114,7 @@ footer{
     & small::after{
         content: "\25B6";
     }
+    & li a{
+        margin: 2px;
+    }
 }
