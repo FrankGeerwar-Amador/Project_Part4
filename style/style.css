@@ -30,6 +30,11 @@ section{
     padding-left: .5em;
     width: 75%;
 }
+section div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 aside{
     width: 25%;
 }
