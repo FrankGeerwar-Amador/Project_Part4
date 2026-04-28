@@ -123,3 +123,10 @@ footer{
   .navbar .dropdown-menu{
     margin-top: 0;
   }
+
+  @media only screen and (width >= 600px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+  }
