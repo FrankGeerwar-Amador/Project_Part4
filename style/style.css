@@ -21,9 +21,9 @@ main{
     display: flex;
 	flex-direction:column;
 	padding: 0 1em 1em;
-    & h2{
+    /*& h2{
         text-align: center;
-    }
+    }*/
 }
 section{
     width: 75%;
