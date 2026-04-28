@@ -106,3 +106,12 @@ footer{
 	border-bottom: 2px solid red;
 	padding: .5em 0 1em;
 }
+.submenu{
+    position: relative;
+    & small{
+        margin-left: .25em;
+    }
+    & small::after{
+        content: "\25B6";
+    }
+}
