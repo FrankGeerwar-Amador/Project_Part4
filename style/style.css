@@ -15,8 +15,6 @@ header{
 body {
 	font-family: 'Times New Roman', Times, serif;
     font-size: calc(15px + .2vw);
-	width: min(80%, 1024px);
-    height: 200px;
 	line-height: 1.5;
 	margin: auto;
 	border: 2px solid #ff0000;
