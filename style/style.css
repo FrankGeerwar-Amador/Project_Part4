@@ -12,6 +12,16 @@ header{
     }
 }
 
+body {
+	font-family: 'Times New Roman', Times, serif;
+    font-size: calc(15px + .2vw);
+	width: min(80%, 1024px);
+	line-height: 1.5;
+	margin: auto;
+	border: 2px solid #ff0000;
+}
+
+
 main{
     display: flex;
 	flex-direction:column;
