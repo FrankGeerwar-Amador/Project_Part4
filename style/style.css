@@ -19,7 +19,11 @@ body {
 	margin: auto;
 	border: 2px solid #ff0000;
 }
-
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1050;
+}
 
 main{
     display: flex;
