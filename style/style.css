@@ -7,9 +7,9 @@ header{
     line-height: 1.2;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    & h2{
-        color: rgb(255, 255, 255)
-    }
+}
+header h2{
+    color: rgb(255, 255, 255)
 }
 
 body {
@@ -23,6 +23,7 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1050;
+    background-color: #212529;
 }
 
 main{
@@ -38,18 +39,16 @@ aside{
     width: 25%;
     border-right: 2px solid #ff0000;
 }
-nav{
-    & ul{
-        text-align: center;
-    }
+nav ul{
+    text-align: center;
 }
 footer{
     background-color: rgb(209, 136, 18);
-    & p{
-        text-align: center;
-        padding: 1em 0;
-        color: white;
-    }
+}
+footer p{
+    text-align: center;
+    padding: 1em 0;
+    color: white;
 }
 .flip-card {
   width: 280px;
@@ -108,10 +107,10 @@ footer{
     color: white;
     text-align: center;
     padding: 16px;
-    & h4{
-        margin: 0;
-        font-size: 16px;
-    }
+}
+title h4{
+    margin: 0;
+    font-size: 16px;
 }
 .facts{
     border-top: 2px solid red;
