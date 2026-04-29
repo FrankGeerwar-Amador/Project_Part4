@@ -28,11 +28,11 @@ main div{
 }
 footer{
     background-color: rgb(209, 136, 18);
-    & p{
-        text-align: center;
-        padding: 1em 0;
-        color: white;
-    }
+}
+footer p{
+  text-align: center;
+  padding: 1em 0;
+  color: white;
 }
 @media only screen and (width >= 768px){
     main{
@@ -50,11 +50,6 @@ footer{
   .navbar .dropdown-menu{
     margin-top: 0;
   }
-  nav{
-    position: sticky;
-    top: 0;
-    z-index: 1050;
-}
 </style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="Project images/Icon.jpg">
@@ -65,7 +60,7 @@ footer{
     <img src="Project images/Logo.png" alt="Logo" width="100" height="100">
     <h1><strong>Contacts</strong></h1>
     </header>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://frankgeerwar-amador.github.io/Project_Part4/#">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

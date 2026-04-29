@@ -13,11 +13,11 @@ header h1{
 
 footer{
     background-color: rgb(209, 136, 18);
-    & p{
-        text-align: center;
-        padding: 1em 0;
-        color: white;
-    }
+}
+footer p{
+  text-align: center;
+  padding: 1em 0;
+  color: white;
 }
 .navbar-nav .dropdown-menu{
     margin-top: 0.5rem;
@@ -29,11 +29,6 @@ footer{
   .navbar .dropdown-menu{
     margin-top: 0;
   }
-  nav{
-    position: sticky;
-    top: 0;
-    z-index: 1050;
-}
 </style>
 <head>
     <meta charset="utf-8">
@@ -48,7 +43,7 @@ footer{
     <img src="Project images/Logo.png" alt="Logo" width="100" height="100">
     <h1><strong>Jazz</strong></h1>
     </header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://frankgeerwar-amador.github.io/Project_Part4/#">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -80,41 +75,49 @@ footer{
   </div>
 </nav>
     <main>
-        <h1><strong>Recommanded Instruments for Jazz</strong></h1>
-        <div class="col-md-4">
-            <div class="card">
-              <img src="Project images/Piano.webp" class="card-img-top" alt="Piano" height="200" width="100">
-              <div class="card-body">
-                <h5 class="card-title">Piano</h5>
-                <p class="card-text">$499.99</p>
-                <button class="btn btn-primary">Add to Cart</button>
-                <button class="btn btn-primary">Purchase</button>
-              </div>
-            </div>
+  <h1><strong>Recommended Instruments for Jazz</strong></h1>
+
+  <div class="container mt-4">
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Project images/Piano.webp" class="card-img-top" alt="Piano">
+          <div class="card-body">
+            <h5 class="card-title">Piano</h5>
+            <p class="card-text">$499.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+            <button class="btn btn-primary">Purchase</button>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Project images/Saxophone.jpg" class="card-img-top" alt="Saxophone" height="200" width="100">
-              <div class="card-body">
-                <h5 class="card-title">Saxophone</h5>
-                <p class="card-text">$199.99</p>
-                <button class="btn btn-primary">Add to Cart</button>
-                <button class="btn btn-primary">Purchase</button>
-              </div>
-            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Project images/Saxophone.jpg" class="card-img-top" alt="Saxophone">
+          <div class="card-body">
+            <h5 class="card-title">Saxophone</h5>
+            <p class="card-text">$199.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+            <button class="btn btn-primary">Purchase</button>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Project images/Clarinet.webp" class="card-img-top" alt="Clarinet" height="200" width="100">
-              <div class="card-body">
-                <h5 class="card-title">Clarinet</h5>
-                <p class="card-text">$99.99</p>
-                <button class="btn btn-primary">Add to Cart</button>
-                <button class="btn btn-primary">Purchase</button>
-              </div>
-            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Project images/Clarinet.webp" class="card-img-top" alt="Clarinet">
+          <div class="card-body">
+            <h5 class="card-title">Clarinet</h5>
+            <p class="card-text">$99.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+            <button class="btn btn-primary">Purchase</button>
           </div>
-    </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 <footer>
     <p>&copy; Frank Geerwar-Amador, 2026</p>
 </footer>
